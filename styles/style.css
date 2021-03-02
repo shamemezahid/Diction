@@ -1,0 +1,129 @@
+html{
+    /*Testing Easiest way to implement Darkmode: Looks kinda terrible*/
+    /*filter: invert(1) hue-rotate(180deg); */ 
+}
+
+body{
+    font-family: 'PT Mono', monospace;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    background: #fcfcfc;
+}
+
+nav{
+    background-color: #fdb43e !important;
+    height: 6rem;
+    z-index: 99;
+}
+
+.app-title{
+    font-size: 2rem;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    padding: 1rem;
+    letter-spacing: 0 !important;
+}
+
+.input-field{
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70vw;
+    border-style: none;
+    border-radius: 8px;
+}
+
+input {
+    padding-left: 2rem !important;
+    margin-top: 4rem;
+    font-size: 1rem;
+    font-family: 'PT Mono', monospace;
+    border-radius: 8px !important;
+    border: 1px solid #fdb43e !important; 
+}
+
+.input-field input:focus{
+    padding-left: 1rem !important;
+    border-radius: 8px;
+    border-style: none !important;
+    border-radius: 8px !important;
+    border: 1px solid #fdb43e !important; 
+}
+
+label{
+    margin-left: 1rem;
+    background:#fcfcfc;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.output-section{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+}
+
+.output-text{
+    text-align: center;
+}
+
+.ohno-image{
+    height: 50vh;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+}
+
+.footer-container{
+    position: absolute;
+    bottom:0%;
+    left: 50%;
+    width: 100%;
+    padding: 0.5rem 0 0.5rem 0;
+    transform: translateX(-50%);
+    background: #F0f0f0;
+}
+
+.footer-container h6{
+    font-size:1rem;
+    float: left;
+    color: #A0a0a0;
+    margin-left: 1rem;
+}
+
+.footer-container img{
+    float: right;
+    width: 2rem;
+    margin-right:1rem;
+    
+}
+
+@media screen and (max-width: 640px){
+    .app-title{
+        font-size:1.5rem;
+    }
+    .input-field{
+        position: absolute;
+        top:20%;
+        left: 45%;
+        transform: translateX(-50%);
+        width: 80vw;
+        border-style: none;
+        border-radius: 8px;
+    }
+    
+    input {
+        padding-left: 2rem !important;
+        margin-top: 4rem;
+        font-size: 1rem;
+        font-family: 'PT Mono', monospace;
+        border-radius: 8px !important;
+        border: 1px solid #fdb43e !important; 
+    }
+}
+

@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>English to Bangla Dictionary</title>
+        <meta charset='utf-8'>
+    	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	    <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <nav>
+            <div class="app-title-container">
+                <p class="app-title">English to Bangla Dictionary</p>
+            </div>
+        </nav>
+
+        <div class="main-container">
+
+            <div>
+                <div class="input-field">
+                    <label for="text-input-box">Write away...</label>
+                    <input id="text-input-box" type="text" class="form-control" onkeyup="search()">
+                </div>
+    
+                <div class="output-section">
+                    <p id=output-text></p>
+                </div>
+
+                <div class="ohno">
+                    <img id="ohno-image" class="ohno-image" src="assets/ohno.svg">
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer class="footer-container">
+            <h6>Shamim Bin Zahid (SH-43)</h6>
+            <a target="blank" href="https://github.com/shamemezahid"><img src="assets/github.svg"></a>
+        </footer>
+
+        <script src="script/script.js"></script>
+    </body>
+</html>
