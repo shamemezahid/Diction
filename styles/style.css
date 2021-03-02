@@ -72,6 +72,7 @@ label{
 }
 
 .ohno-image{
+    width: 70vw;
     height: 50vh;
     position: absolute;
     left: 50%;
