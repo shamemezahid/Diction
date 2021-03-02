@@ -1,5 +1,5 @@
 # Diction
-> The Diction refers to the style of speaking or writing as dependent upon choice of words. 
+> The Word Diction refers to the style of speaking or writing as dependent upon choice of words. 
 
 A simple Bangla to English Dictionary Application Implementing Perfect Hashing. A Simple GUI Made with HTML & CSS with Some Unnecessary Use of the MaterializeCSS Library and Prorammed using Vanilla JavaScript.
 
@@ -14,6 +14,6 @@ Dataset Used in This Project was a restructured version by [GandhiG](https://git
 
 
 
-`this application was made as a CSE-3203 (design and analysis of algorithms - II) course assignment at university of dhaka`
+`This application was made as a CSE-3203 (design and analysis of algorithms - II) course assignment at University of Dhaka`
 
 `happy coding ❤️`
